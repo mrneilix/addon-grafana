@@ -13,7 +13,7 @@ bashio::net.wait_for 11211
 
 bashio::log.info 'Starting Grafana...'
 
-options+=(--config="/etc/grafana/grafana.ini")
+options+=(--config="/share/grafana/grafana.ini")
 options+=(--homepath="/usr/share/grafana")
 
 # Load custom environment variables
