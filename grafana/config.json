@@ -18,7 +18,8 @@
     "80/tcp": "Grafana web interface"
   },
   "map": [
-    "ssl"
+    "ssl",
+    "share:rw"
   ],
   "boot": "auto",
   "hassio_api": true,
