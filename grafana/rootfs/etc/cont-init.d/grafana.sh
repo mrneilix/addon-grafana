@@ -3,7 +3,7 @@
 # Community Hass.io Add-ons: Grafana
 # Configures Grafana
 # ==============================================================================
-readonly CONFIG="/etc/grafana/grafana.ini"
+readonly CONFIG="/share/grafana/grafana.ini"
 declare certfile
 declare keyfile
 declare log_level
